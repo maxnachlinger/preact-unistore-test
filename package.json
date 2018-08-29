@@ -12,7 +12,6 @@
   "keywords": [],
   "devDependencies": {
     "@babel/core": "7.0.0",
-    "@babel/plugin-transform-async-to-generator": "7.0.0",
     "@babel/preset-env": "7.0.0",
     "babel-loader": "8.0.0",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
