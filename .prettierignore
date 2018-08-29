@@ -1,0 +1,6 @@
+dist
+*.html
+.DS_Store
+.idea
+.gitignore
+.prettierignore
