@@ -9,9 +9,12 @@ import { ProcessingScreen } from './components/processing';
 const App = ({ results = [], search, searchStatus }) => (
   <div>
     <SearchForm {...{ search }} />
-    <p>{searchStatus === SearchStatus.Processing ? (<ProcessingScreen/>) : searchStatus}</p>
+    <p>{searchStatus === SearchStatus.Processing ? <ProcessingScreen /> : searchStatus}</p>
     <SearchResults {...{ results }} />
   </div>
 );
 
-export default connect('count,results,searchStatus', actions)(App);
+export default connect(
+  'count,results,searchStatus',
+  actions,
+)(App);
