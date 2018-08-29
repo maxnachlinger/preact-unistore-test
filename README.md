@@ -17,7 +17,7 @@ npm start
 Go to: [http://127.0.0.1:2990](http://127.0.0.1:2990)
 
 ### Why?
-This is why :)
+`preact` and `unistore` are simpler alternatives to `react` and `redux`, the bundles are much lighter as well, for example:
 ```
                          Asset       Size  Chunks             Chunk Names
   db42d873a6a94c780049.app.css  147 bytes       0  [emitted]  app
