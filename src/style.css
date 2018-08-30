@@ -80,6 +80,12 @@ body {
   margin-left: 5px;
 }
 
+.source-link {
+  font-size: small;
+  float: right;
+  margin-right: 10px;
+}
+
 .results-count-display {
   display: inline-block;
   font-size: small;

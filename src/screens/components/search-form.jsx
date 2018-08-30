@@ -24,6 +24,9 @@ export class SearchForm extends Component {
         <button disabled={!searchEnabled} onClick={executeSearch} class="search-button">
           Search
         </button>
+        <div class="source-link">
+          <a href="https://github.com/maxnachlinger/preact-unistore-test">Source</a>
+        </div>
         {results.length > 0 && <div class="results-count-display">{results.length} results</div>}
       </div>
     );
