@@ -8,12 +8,12 @@ Install dependencies:
 npm i
 ```
 
-Run for development (with inline source maps):
+Build and run for development (with inline source maps, hot reloading etc):
 
 ```
 npm start
 ```
-Run for production (serves gzipped files, you know, like production)
+Build and run for production (serves gzipped files, you know, like production)
 ```
 npm run start-prod
 ```
