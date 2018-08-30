@@ -1,7 +1,7 @@
 {
   "name": "preact-unistore-test",
   "version": "0.0.1",
-  "description": "",
+  "description": "Take THAT big bundles!",
   "main": "src/index.jsx",
   "scripts": {
     "test": "npm run fmt",
@@ -31,8 +31,7 @@
     "webpack": "4.17.1",
     "webpack-bundle-analyzer": "2.13.1",
     "webpack-cli": "3.1.0",
-    "webpack-dev-server": "3.1.6",
-    "worker-loader": "2.0.0"
+    "webpack-dev-server": "3.1.6"
   },
   "author": "Max Nachlinger",
   "license": "ISC"
