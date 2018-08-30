@@ -1,16 +1,15 @@
 import { h, Component } from 'preact';
-import { SearchStatus } from '../../consts';
 
 export class SearchForm extends Component {
   render() {
-    const { search } = this.props;
+    const { search, results = [] } = this.props;
     const { term } = this.state;
 
     const searchEnabled = term && term.length >= 2;
     const executeSearch = () => (searchEnabled ? search(term) : null);
 
     return (
-      <div>
+      <div class="search-form-container">
         <input
           autofocus
           onChange={(event) => this.setState(() => ({ term: event.target.value }))}
@@ -20,9 +19,10 @@ export class SearchForm extends Component {
               : this.setState(() => ({ term: event.target.value }))
           }
         />
-        <button disabled={!searchEnabled} onClick={executeSearch}>
+        <button disabled={!searchEnabled} onClick={executeSearch} class="search-button">
           Search
         </button>
+        {results.length > 0 && <div class="results-count-display">{results.length} results</div>}
       </div>
     );
   }

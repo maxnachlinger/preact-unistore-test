@@ -10,3 +10,33 @@ body {
   vertical-align: center;
   opacity: 0.6;
 }
+
+.search-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  height: 20px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.search-button {
+  margin-left: 5px;
+}
+
+.results-count-display {
+  display: inline-block;
+  font-size: small;
+  float: right;
+  margin-right: 10px;
+}
+
+.search-results-container {
+  margin-top: 20px;
+}
+
+.search-result-image {
+  margin: 10px;
+}

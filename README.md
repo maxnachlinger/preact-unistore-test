@@ -13,13 +13,17 @@ Build and run for development (with inline source maps, hot reloading etc):
 ```
 npm start
 ```
+
 Build and run for production (serves gzipped files, you know, like production)
+
 ```
 npm run start-prod
 ```
 
 ### Why?
+
 `preact` and `unistore` are simpler alternatives to `react` and `redux`, the bundles are much lighter as well, for example:
+
 ```
                          Asset       Size  Chunks             Chunk Names
   db42d873a6a94c780049.app.css  147 bytes       0  [emitted]  app

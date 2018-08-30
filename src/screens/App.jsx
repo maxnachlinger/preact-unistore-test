@@ -8,7 +8,7 @@ import { ProcessingScreen } from './components/processing';
 
 const App = ({ results = [], searchStatus, search }) => (
   <div>
-    <SearchForm {...{ search }} />
+    <SearchForm {...{ search, results }} />
     {searchStatus === SearchStatus.Processing && <ProcessingScreen />}
     <SearchResults {...{ results }} />
   </div>
