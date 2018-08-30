@@ -8,13 +8,15 @@ Install dependencies:
 npm i
 ```
 
-Start:
+Run for development (with inline source maps):
 
 ```
 npm start
 ```
-
-Go to: [http://127.0.0.1:2990](http://127.0.0.1:2990)
+Run for production (serves gzipped files, you know, like production)
+```
+npm run start-prod
+```
 
 ### Why?
 `preact` and `unistore` are simpler alternatives to `react` and `redux`, the bundles are much lighter as well, for example:
