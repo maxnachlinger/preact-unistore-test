@@ -12,12 +12,14 @@ export class SearchForm extends Component {
       <div class="search-form-container">
         <input
           autofocus
+          class="search-input"
           onChange={(event) => this.setState(() => ({ term: event.target.value }))}
           onKeyUp={(event) =>
             event.key === 'Enter'
               ? executeSearch()
               : this.setState(() => ({ term: event.target.value }))
           }
+          placeholder="Type in a search and hit Enter"
         />
         <button disabled={!searchEnabled} onClick={executeSearch} class="search-button">
           Search

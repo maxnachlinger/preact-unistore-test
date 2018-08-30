@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   padding: 0;
+  margin: 0;
 }
 
 .processing-screen {
@@ -69,6 +70,10 @@ body {
   height: 20px;
   padding: 5px;
   background: rgba(255, 255, 255, 0.8);
+}
+
+.search-input {
+  width: 200px;
 }
 
 .search-button {
