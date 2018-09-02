@@ -28,10 +28,10 @@ npm run start-prod
 
 ```
                           Asset       Size  Chunks             Chunk Names
-   e7f0f995bf8f1f363539.app.css   1.08 KiB       0  [emitted]  app
-    e7f0f995bf8f1f363539.app.js     15 KiB       0  [emitted]  app
+   27ce2ed91540111fd567.app.css   1.11 KiB       0  [emitted]  app
+    27ce2ed91540111fd567.app.js   15.1 KiB       0  [emitted]  app
                      index.html  272 bytes          [emitted]
-e7f0f995bf8f1f363539.app.css.gz  548 bytes          [emitted]
+27ce2ed91540111fd567.app.css.gz  561 bytes          [emitted]
                   index.html.gz  200 bytes          [emitted]
- e7f0f995bf8f1f363539.app.js.gz   5.66 KiB          [emitted]
+ 27ce2ed91540111fd567.app.js.gz   5.72 KiB          [emitted]
 ```
