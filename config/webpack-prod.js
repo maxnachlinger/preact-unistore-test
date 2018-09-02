@@ -4,6 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const { srcPath, outputPath, publicPath } = require('./client');
 
@@ -53,5 +54,7 @@ module.exports = {
       title: 'Preact / Unistore Test',
     }),
     new CompressionPlugin(),
+    // un-comment to help with shrinking bundle size
+    // new BundleAnalyzerPlugin(),
   ],
 };
